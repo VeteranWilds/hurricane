@@ -1,4 +1,4 @@
-const topBarCenterText = `VA3HDL - FN04ga`;
+const topBarCenterText = `NE5GG - fm05ok`;
 // Menu items
 // Structure is as follows HTML Color code, Option, target URL, scaling 1=Original Size, side (optional, nothing is Left, "R" is Right)
 // The values are [color code, menu text, target link, scale factor, side],
@@ -61,13 +61,22 @@ const aIMG = [
     "https://radar.weather.gov/ridge/standard/KNQA_loop.gif",
   ],
   [
-    "NOAA D-RAP",
-    "https://services.swpc.noaa.gov/images/animations/d-rap/global/d-rap/latest.png",
+    "Atlantic Outlook",
+    "https://www.nhc.noaa.gov/xgtwo/two_atl_2d0.png",
+    "https://www.nhc.noaa.gov/xgtwo/two_atl_7d0.png",
+    "https://www.nhc.noaa.gov/xgtwo/two_atl_0d0.png",
   ],
   [
-    "ISS & RS-44 POSITION",
-    "https://www.heavens-above.com/orbitdisplay.aspx?icon=iss&width=600&height=300&mode=M&satid=25544",
-    "https://www.heavens-above.com/orbitdisplay.aspx?icon=default&width=600&height=300&mode=M&satid=44909",
+    "Central Pacific Outlook",
+    "https://www.nhc.noaa.gov/xgtwo/two_cpac_2d0.png",
+    "https://www.nhc.noaa.gov/xgtwo/two_cpac_7d0.png",
+    "https://www.nhc.noaa.gov/xgtwo/two_cpac_0d0.png",
+  ],
+  [
+    "Pacific Outlook",
+    "https://www.nhc.noaa.gov/xgtwo/two_pac_2d0.png",
+    "https://www.nhc.noaa.gov/xgtwo/two_pac_7d0.png",
+    "https://www.nhc.noaa.gov/xgtwo/two_pac_0d0.png",
   ],
   [
     "SATELLITE CAN",
@@ -81,10 +90,7 @@ const aIMG = [
     "LIGHTNING",
     "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa",
   ],
-  [
-    "LIGHTNING LOCAL",
-    "https://www.blitzortung.org/en/Images/image_b_ny.png",
-  ],
+  
   ["GREY LINE", "https://www.timeanddate.com/scripts/sunmap.php?iso=now"],
   [
     "SW BROADCAST",
